@@ -1,0 +1,4 @@
+#JSGF V1.0 ISO8859-5;
+
+grammar sample;
+public <bangla> = (শূন্য | এক | দুই | তিন | চার | পাঁচ | ছয় | সাত | আট | নয় );
