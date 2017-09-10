@@ -1,0 +1,65 @@
+Language model created by QuickLM on Wed Sep  6 01:35:03 EDT 2017
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 10 sentences and 12 words
+
+\data\
+ngram 1=12
+ngram 2=20
+ngram 3=10
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.7782 আট -0.2218
+-1.7782 এক -0.2218
+-1.7782 চার -0.2218
+-1.7782 ছয় -0.2218
+-1.7782 তিন -0.2218
+-1.7782 দুই -0.2218
+-1.7782 নয় -0.2218
+-1.7782 পাঁচ -0.2218
+-1.7782 শূন্য -0.2218
+-1.7782 সাত -0.2218
+
+\2-grams:
+-1.3010 <s> আট 0.0000
+-1.3010 <s> এক 0.0000
+-1.3010 <s> চার 0.0000
+-1.3010 <s> ছয় 0.0000
+-1.3010 <s> তিন 0.0000
+-1.3010 <s> দুই 0.0000
+-1.3010 <s> নয় 0.0000
+-1.3010 <s> পাঁচ 0.0000
+-1.3010 <s> শূন্য 0.0000
+-1.3010 <s> সাত 0.0000
+-0.3010 আট </s> -0.3010
+-0.3010 এক </s> -0.3010
+-0.3010 চার </s> -0.3010
+-0.3010 ছয় </s> -0.3010
+-0.3010 তিন </s> -0.3010
+-0.3010 দুই </s> -0.3010
+-0.3010 নয় </s> -0.3010
+-0.3010 পাঁচ </s> -0.3010
+-0.3010 শূন্য </s> -0.3010
+-0.3010 সাত </s> -0.3010
+
+\3-grams:
+-0.3010 <s> আট </s>
+-0.3010 <s> এক </s>
+-0.3010 <s> চার </s>
+-0.3010 <s> ছয় </s>
+-0.3010 <s> তিন </s>
+-0.3010 <s> দুই </s>
+-0.3010 <s> নয় </s>
+-0.3010 <s> পাঁচ </s>
+-0.3010 <s> শূন্য </s>
+-0.3010 <s> সাত </s>
+
+\end\
